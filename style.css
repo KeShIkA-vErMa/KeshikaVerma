@@ -1,0 +1,415 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section Styling */
+#hero {
+  background-color: #6f2dbd; /* Bold boss-lady color */
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+#hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.2em;
+}
+
+#hero .hero-images {
+  display: flex; /* Arrange images in a row */
+  justify-content: center; /* Center them horizontally */
+  gap: 15px; /* Add space between images */
+  margin-top: 20px;
+}
+
+#hero .hero-images img {
+  width: 100px; /* Set image width */
+  height: 100px; /* Set image height */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  border-radius: 50%; /* Make images circular */
+ transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+}
+
+#hero .hero-images img:hover {
+  transform: scale(1.1); /* Slightly enlarge image on hover */
+}
+
+
+/* Navigation Bar */
+.navbar {
+  background-color: #4b0082; /* A darker purple for contrast */
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.navbar a:hover {
+  color: #b9faf8; /* A light, minty color on hover */
+}
+
+/* About Me Section */
+#about {
+  background-color: #b8d0eb; /* Light blue for a soft vibe */
+  color: #4b0082; /* Dark purple text for contrast */
+  padding: 40px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2em;
+  line-height: 1.6; /* Increases readability */
+  margin: 10px auto;
+  max-width: 600px; /* Keeps text from stretching too wide */
+}
+
+/* Articles Section */
+#articles {
+  padding: 40px;
+  background-color: #f5f5f5; /* Light gray background */
+  text-align: center;
+}
+
+.articles-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.article-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Smooth transition for card hover */
+}
+
+.article-card:hover {
+  transform: scale(1.05); /* Slightly enlarges the card */
+}
+
+.article-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.article-card p {
+  font-size: 1em;
+  color: #555;
+  transition: font-size 0.3s ease, color 0.3s ease; /* Smooth transition for text */
+}
+
+.article-card a {
+  text-decoration: none;
+  color: #4b0082;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.article-card a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Article Page Styling */
+article {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+  font-size: 2.5em;
+  color: #4b0082;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+article em {
+  font-style: italic;
+  color: #666;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Navbar Links Hover */
+.navbar a {
+  text-decoration: none; /* Removes underline */
+  color: black; /* Default color */
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  background-color: #a663cc; /* Adds a background on hover */
+  color: white; /* Changes text color on hover */
+  border-radius: 5px; /* Smooth edges */
+}
+.article-card {
+  border: 1px solid #ddd; /* Light gray border */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+  padding: 15px;
+  margin: 10px;
+}
+#hero {
+  background: linear-gradient(to right, #6f2dbd, #a663cc);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+h1, h2, h3 {
+  color: #4b0082; /* Purple for headings */
+}
+/* Connect with Me Section */
+#connect {
+  background-color: #f5f5f5; /* Light gray */
+  padding: 40px;
+  text-align: center;
+}
+
+#connect h2 {
+  font-size: 2em;
+  color: #4b0082; /* Purple */
+  margin-bottom: 20px;
+}
+
+#connect p {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.btn-linkedin {
+  background-color: #0077b5; /* LinkedIn Blue */
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.btn-linkedin:hover {
+  background-color: #005582; /* Darker blue */
+}
+
+/* Connect Page Styling */
+#connect {
+  padding: 40px;
+  text-align: center;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+#connect h1 {
+  font-size: 2.5em;
+  color: #4b0082;
+  margin-bottom: 20px;
+}
+
+#connect p {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-linkedin {
+  background-color: #0077b5; /* LinkedIn Blue */
+}
+
+.btn-linkedin:hover {
+  background-color: #005582;
+}
+
+.btn-instagram {
+  background-color: #E4405F; /* Instagram Pink */
+}
+
+.btn-instagram:hover {
+  background-color: #C13584;
+}
+
+.btn-email {
+  background-color: #4CAF50; /* Green for Email */
+}
+
+.btn-email:hover {
+  background-color: #388E3C;
+}
+
+footer {
+  background-color: #4b0082; /* Dark purple */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: #b9faf8; /* Light mint color */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#projects {
+  padding: 40px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2em;
+  color: #4b0082;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Achievements Page Styling */
+article {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+  font-size: 2.5em;
+  color: #4b0082;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article h2 {
+  font-size: 1.8em;
+  color: #6f2dbd;
+  margin-top: 30px;
+}
+
+article ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+article ul li {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
+}
+
+
+/* Academics Page Styling */
+article {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+  font-size: 2.5em;
+  color: #4b0082;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article h2 {
+  font-size: 1.8em;
+  color: #6f2dbd;
+  margin-top: 30px;
+}
+
+article ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+article ul li {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
+}
