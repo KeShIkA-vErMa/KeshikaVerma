@@ -42,22 +42,42 @@ body {
 
 
 /* Navigation Bar */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .navbar {
-  background-color: #4b0082; /* A darker purple for contrast */
-  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5a189a; /* your dark purple */
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   text-align: center;
+
 }
 
-.navbar a {
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 26px;
   color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 1.2em;
-  transition: color 0.3s ease; /* Smooth color change on hover */
+  font-weight: normal;
 }
 
-.navbar a:hover {
-  color: #b9faf8; /* A light, minty color on hover */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: white;
 }
 
 /* About Me Section */
