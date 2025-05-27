@@ -96,6 +96,12 @@ html, body {
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
 /* MOBILE STYLES */
 @media screen and (max-width: 768px) {
   .menu-toggle {
