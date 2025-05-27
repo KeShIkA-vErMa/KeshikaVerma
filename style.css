@@ -81,17 +81,19 @@ body {
   flex-wrap: wrap;
 }
 
-.menu-toggle {
-  display: none;
-  font-size: 26px;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
 /* MOBILE STYLES */
 @media screen and (max-width: 768px) {
+  .menu-toggle {
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 999;         /* Make sure it's on top */
+    flex-shrink: 0;       /* Prevent it from collapsing */
+    margin-left: auto;      /* Push to the right */
+  }
+  
   .nav-links {
     display: none;
     flex-direction: column;
