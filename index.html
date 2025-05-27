@@ -6,8 +6,8 @@
 </head>
 <script>
   function toggleMenu() {
-    var nav = document.getElementById("navLinks");
-    nav.classList.toggle("active");
+    const nav = document.querySelector('.nav-links');
+    nav.classList.toggle('active');
   }
 </script>
 
@@ -16,6 +16,7 @@
   <header>
   <div class="navbar">
     <div class="logo"><i>Meet Keshika Verma </i></div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     <div class="nav-links">
       <a href="#about" style="color:#ffea94; text-decoration:none;">About Me</a>
 <a href="#articles" style="color:#ffea94; text-decoration:none;">Articles</a>

@@ -51,10 +51,14 @@ body {
   font-weight: normal;
 }
 
-.nav-links {
-  display: flex;
-  gap: 20px;
+/* Desktop styles */
+@media screen and (min-width: 769px) {
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
 }
+
 
 .nav-links a {
   color: black;
