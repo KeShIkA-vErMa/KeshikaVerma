@@ -72,6 +72,9 @@ html, body {
     display: flex;
     gap: 20px;
   }
+  .menu-toggle {
+    display: none;
+  }
 }
 
 .nav-links a {
@@ -94,12 +97,6 @@ html, body {
   padding: 12px 30px;
   background-color: #5a189a;
   flex-wrap: wrap;
-}
-
-@media screen and (min-width: 769px) {
-  .menu-toggle {
-    display: none;
-  }
 }
 
 /* MOBILE STYLES */
