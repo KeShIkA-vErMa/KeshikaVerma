@@ -44,19 +44,6 @@ body {
 /* Navigation Bar */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #5a189a; /* your dark purple */
-  padding: 10px 30px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  text-align: center;
-
-}
-
 .logo {
   font-family: 'Great Vibes', cursive;
   font-size: 26px;
@@ -78,6 +65,43 @@ body {
 
 .nav-links a:hover {
   color: white;
+}
+
+/* Base nav style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  background-color: #5a189a;
+  flex-wrap: wrap;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
 
 /* About Me Section */
