@@ -3,18 +3,24 @@ body {
   margin: 0;
   font-family: Aria
   l, sans-serif;
-}
-body {
   overflow-x: hidden;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 /* Hero Section Styling */
+
 #hero {
-  background-color: #6f2dbd; /* Bold boss-lady color */
+  background: linear-gradient(to right, #6f2dbd, #a663cc);
   color: white;
-  text-align: center;
-  padding: 50px;
+  padding: 50px 10px; /* ensure side padding */
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 #hero h2 {
@@ -27,12 +33,14 @@ body {
 }
 
 #hero .hero-images {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
   max-width: 100%;
-  overflow-x: hidden;
+  margin: 0 auto;
   padding: 10px;
   box-sizing: border-box;
-  justify-content: center;
 }
 
 #hero .hero-images img {
@@ -40,7 +48,7 @@ body {
   height: 80px;
   object-fit: cover;
   border-radius: 50%;
-  margin: 5px;
+  flex-shrink: 0;
 }
 
 #hero .hero-images img:hover {
