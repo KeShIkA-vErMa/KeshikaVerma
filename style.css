@@ -59,9 +59,8 @@ body {
   }
 }
 
-
 .nav-links a {
-  color: black;
+  color: #ffea94; /* Soft yellow for contrast */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -70,6 +69,7 @@ body {
 .nav-links a:hover {
   color: white;
 }
+
 
 /* Base nav style */
 .navbar {
