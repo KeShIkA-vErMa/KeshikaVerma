@@ -1,8 +1,13 @@
 /* General Reset */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Aria
+  l, sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
+
 
 /* Hero Section Styling */
 #hero {
@@ -22,18 +27,20 @@ body {
 }
 
 #hero .hero-images {
-  display: flex; /* Arrange images in a row */
-  justify-content: center; /* Center them horizontally */
-  gap: 15px; /* Add space between images */
-  margin-top: 20px;
+  flex-wrap: wrap;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: center;
 }
 
 #hero .hero-images img {
-  width: 100px; /* Set image width */
-  height: 100px; /* Set image height */
-  object-fit: cover; /* Ensure images maintain aspect ratio */
-  border-radius: 50%; /* Make images circular */
- transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 5px;
 }
 
 #hero .hero-images img:hover {
