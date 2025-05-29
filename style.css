@@ -144,7 +144,7 @@ html, body {
   font-size: 1.2em;
   line-height: 1.6; /* Increases readability */
   margin: 10px auto;
-  max-width: 600px; /* Keeps text from stretching too wide */
+  max-width: 1000px; /* Keeps text from stretching too wide */
 }
 
 /* Articles Section */
@@ -328,29 +328,24 @@ h1, h2, h3 {
   text-decoration: none;
 }
 
-.btn-linkedin {
-  background-color: #0077b5; /* LinkedIn Blue */
-}
-
-.btn-linkedin:hover {
-  background-color: #005582;
-}
-
-.btn-instagram {
-  background-color: #E4405F; /* Instagram Pink */
-}
-
-.btn-instagram:hover {
-  background-color: #C13584;
-}
 
 .btn-email {
-  background-color: #4CAF50; /* Green for Email */
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .btn-email:hover {
   background-color: #388E3C;
 }
+
 
 footer {
   background-color: #4b0082; /* Dark purple */
