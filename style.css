@@ -78,16 +78,15 @@ html, body {
 }
 
 .nav-links a {
-  color: #ffea94; /* Soft yellow for contrast */
-  text-decoration: none;
+  color: #ffea94 !important;
+  text-decoration: none !important;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: white;
+  color: white !important;
 }
-
 
 /* Base nav style */
 .navbar {
